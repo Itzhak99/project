@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/amitg/CLionProjects/FProject/cmake-build-debug"
+			"value" : "C:/Users/monst/CLionProjects/project/FProject/cmake-build-debug"
 		},
 		{
 			"name" : "Assignment2_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/amitg/CLionProjects/FProject"
+			"value" : "C:/Users/monst/CLionProjects/project/FProject"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/amitg/CLionProjects/FProject/cmake-build-debug"
+			"value" : "c:/Users/monst/CLionProjects/project/FProject/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/amitg/CLionProjects/FProject"
+			"value" : "C:/Users/monst/CLionProjects/project/FProject"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/ninja/win/ninja.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",

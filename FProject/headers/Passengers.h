@@ -30,5 +30,6 @@ struct Passengers passini();
 struct plane planeini();
 void AddPassenger(struct plane *A);
 int DollartoNIS();
+void profit(int num);
 
 #endif //ASSIGNMENT2_PASSENGERS_H

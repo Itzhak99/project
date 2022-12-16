@@ -50,6 +50,10 @@ void PrintPlane(struct plane *A)
     printf("Occupied: %d\nMoney Earned: %d",A->Occupied,A->MoneyEarned);
 }
 
+void profit(int num) {
+    printf("expected profit from flight is %d",num*Price);
+}
+
 void AddPassenger(struct plane *A)
 {
     int num;
@@ -83,4 +87,8 @@ void AddPassenger(struct plane *A)
     }
     A->Occupied+=num;
     A->MoneyEarned+=Price*num;
+
+    profit(num);
 }
+
+
