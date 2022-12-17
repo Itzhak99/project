@@ -68,6 +68,11 @@ CMakeFiles/Assignment2.dir/main.c.obj
  C:/Users/dorbi/Desktop/repo_partB/project_partB/FProject/headers/airport_manager.h
  C:/Users/dorbi/Desktop/repo_partB/project_partB/FProject/headers/Passengers.h
  C:/Users/dorbi/Desktop/repo_partB/project_partB/FProject/headers/functions.h
+ C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/time.h
+ C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/_timeval.h
+ C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h
+ C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h
+ C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h
 
 CMakeFiles/Assignment2.dir/sources/airline.c.obj
  C:/Users/dorbi/Desktop/repo_partB/project_partB/FProject/sources/airline.c

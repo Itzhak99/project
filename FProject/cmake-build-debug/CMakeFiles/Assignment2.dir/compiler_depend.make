@@ -65,7 +65,12 @@ CMakeFiles/Assignment2.dir/main.c.obj: ../main.c \
   ../headers/date.h \
   ../headers/airport_manager.h \
   ../headers/Passengers.h \
-  ../headers/functions.h
+  ../headers/functions.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/time.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h
 
 CMakeFiles/Assignment2.dir/sources/airline.c.obj: ../sources/airline.c \
   ../headers/functions.h \
@@ -284,6 +289,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
@@ -301,6 +308,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
 
@@ -329,3 +338,9 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include
 ../sources/airport.c:
 
 ../headers/date.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/time.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/_timeval.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h:

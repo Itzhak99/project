@@ -34,4 +34,9 @@ CMakeFiles/Assignment2.dir/main.c.obj: \
  C:\Users\dorbi\Desktop\repo_partB\project_partB\FProject\headers/date.h \
  C:\Users\dorbi\Desktop\repo_partB\project_partB\FProject\headers/airport_manager.h \
  C:/Users/dorbi/Desktop/repo_partB/project_partB/FProject/headers/Passengers.h \
- C:/Users/dorbi/Desktop/repo_partB/project_partB/FProject/headers/functions.h
+ C:/Users/dorbi/Desktop/repo_partB/project_partB/FProject/headers/functions.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/time.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/_timeval.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h
