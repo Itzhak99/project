@@ -19,6 +19,11 @@ void freeAll(AirportManager* airportManager, Airline* airline) {
 #include <stdlib.h>
 #include <time.h>
 
+
+
+
+
+
 void print_random_weather() {
     // Seed the random number generator with the current time
     srand(time(0));
