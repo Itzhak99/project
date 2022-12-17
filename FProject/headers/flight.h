@@ -15,6 +15,7 @@ typedef struct {
     char dest_code[IATA_CODE_SIZE + 1];
     int  time; // Hour : 0-23
     Date date;
+
 } Flight;
 
 int     initFlight(const AirportManager* pAirportManager, Flight* pFlight);

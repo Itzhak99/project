@@ -7,10 +7,16 @@
 #include "headers/airline.h"
 #include "Passengers.h"
 
+
+
 void freeAll(AirportManager* airportManager, Airline* airline) {
     freeAirportManager(airportManager);
     freeAirline(airline);
 }
+
+
+#include <stdio.h>
+
 
 void printMenu() {
     printf("\n1. Add Flight to airline\n"
@@ -101,6 +107,23 @@ int main() {
 
     struct plane A = planeini();
 
+
+printf("  \\----------------------------------\\\n"
+       "   \\                                  \\        __\n"
+       "    \\                                  \\       | \\\n"
+       "     >                                  >------|  \\       ______\n"
+       "    /                                  /       --- \\_____/**|_|_\\____  |\n"
+       "   /                                  /          \\_______ --------- __>-}\n"
+       "  /----------------------------------/              /  \\_____|_____/   |\n"
+       "                                                    *         |\n"
+       "                                                             {O}\n"
+       "\n"
+       "       /*\\       /*\\       /*\\       /*\\       /*\\       /*\\       /*\\\n"
+       "      |***|     |***|     |***|     |***|     |***|     |***|     |***|\n"
+       "       \\*/       \\*/ ____  \\*/       \\*/       \\*/       \\*/       \\*/\n"
+       "        |         |  |  |   |         |         |         |         |\n"
+       "  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+printf("\n");
     // init Airport Manager
     AirportManager airportManager;
     initAirportManager(&airportManager);
