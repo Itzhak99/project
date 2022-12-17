@@ -50,13 +50,14 @@ void printMenu() {
            "5. Print all flights by airports\n"
            "6. Passengers Management\n"
            "7. show weather for today\n "
-           "8. Quit\n\n"
+           "8. fuel consumption\n"
+           "9. Quit\n\n"
            "Enter your choose:");
 }
 
 int getChoose() {
     int choose = 0;
-    while (choose > 8 || choose < 1) {
+    while (choose > 9 || choose < 1) {
         printMenu();
         scanf("%d", &choose);
     }
@@ -82,7 +83,7 @@ int PassengersChoose()
 void run(AirportManager* airportManager, Airline* airline,struct plane *A) {
     int choose = getChoose();
     int PC;
-    while (choose != 8) {
+    while (choose != 9) {
         flush();
         switch (choose) {
             case 1:
@@ -122,8 +123,12 @@ void run(AirportManager* airportManager, Airline* airline,struct plane *A) {
                     }
                 }
             }
-            case 7:
+            case 7: {
                 print_random_weather();
+            }
+            case 8:{
+                Gas_Consumption();
+            }
         }
         choose = getChoose();
     }

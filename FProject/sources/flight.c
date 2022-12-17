@@ -63,3 +63,30 @@ int countSimilarFlights(const Flight** pFlights, const int num_of_flights,
 
     return count;
 }
+
+void Gas_Consumption() {
+    int flight_time; // flight duration in hours
+    float fuel_needed; // total fuel needed in gallons
+    float cost; // total cost of fuel in dollars
+
+    // Get the flight duration from the user
+    printf("Enter the flight duration (in hours): ");
+    scanf("%d", &flight_time);
+
+    // Calculate the total fuel needed and cost
+    fuel_needed = flight_time * GAS_CONSUMPTION;
+    cost = fuel_needed * GAS_PRICE;
+
+
+    FILE *output_file = fopen("fuel_cost.txt", "w");
+
+
+    fprintf(output_file, "Total fuel needed: %.2f gallons\n", fuel_needed);
+    fprintf(output_file, "Total cost of fuel: $%.2f\n", cost);
+
+
+    fclose(output_file);
+
+
+
+}

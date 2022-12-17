@@ -25,4 +25,6 @@ int     checkFlightDest(const Flight* pFlight, const char origin_code[IATA_CODE_
 int     countSimilarFlights(const Flight** pFlights, const int num_of_flights, const char origin_code[IATA_CODE_SIZE + 1], const char dest_code[IATA_CODE_SIZE + 1]);
 int     getValidCode(const AirportManager* pAirportManager, char code[IATA_CODE_SIZE + 1], const char* msg);
 
+void Gas_Consumption();
+
 #endif //HW02_FLIGHT_H

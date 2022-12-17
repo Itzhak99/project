@@ -1,0 +1,2 @@
+Total fuel needed: 50.00 gallons
+Total cost of fuel: $175.00
