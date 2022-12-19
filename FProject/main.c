@@ -7,9 +7,44 @@
 #include "headers/airline.h"
 #include "Passengers.h"
 
+
+
 void freeAll(AirportManager* airportManager, Airline* airline) {
     freeAirportManager(airportManager);
     freeAirline(airline);
+}
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+
+
+
+
+void print_random_weather() {
+    // Seed the random number generator with the current time
+    srand(time(0));
+
+    // Declare an array of possible weather conditions
+    char *conditions[] = {
+            "clear skies",
+            "partly cloudy",
+            "mostly cloudy",
+            "overcast",
+            "light rain",
+            "heavy rain",
+            "thunderstorms",
+            "snow"
+    };
+
+    // Generate a random index between 0 and the number of conditions - 1
+    int index = rand() % (sizeof(conditions) / sizeof(char*));
+
+    // Print the random weather condition
+    printf("Current weather for the flight: %s\n", conditions[index]);
 }
 
 void printMenu() {
@@ -19,13 +54,15 @@ void printMenu() {
            "4. Print AirportManager data\n"
            "5. Print all flights by airports\n"
            "6. Passengers Management\n"
-           "7. Quit\n\n"
+           "7. show weather for today\n "
+           "8. fuel consumption\n"
+           "9. Quit\n\n"
            "Enter your choose:");
 }
 
 int getChoose() {
     int choose = 0;
-    while (choose > 7 || choose < 1) {
+    while (choose > 9 || choose < 1) {
         printMenu();
         scanf("%d", &choose);
     }
@@ -51,7 +88,7 @@ int PassengersChoose()
 void run(AirportManager* airportManager, Airline* airline,struct plane *A) {
     int choose = getChoose();
     int PC;
-    while (choose != 7) {
+    while (choose != 9) {
         flush();
         switch (choose) {
             case 1:
@@ -91,6 +128,12 @@ void run(AirportManager* airportManager, Airline* airline,struct plane *A) {
                     }
                 }
             }
+            case 7: {
+                print_random_weather();
+            }
+            case 8:{
+                Gas_Consumption();
+            }
         }
         choose = getChoose();
     }
@@ -101,6 +144,23 @@ int main() {
 
     struct plane A = planeini();
 
+
+printf("  \\----------------------------------\\\n"
+       "   \\                                  \\        __\n"
+       "    \\                                  \\       | \\\n"
+       "     >                                  >------|  \\       ______\n"
+       "    /                                  /       --- \\_____/**|_|_\\____  |\n"
+       "   /                                  /          \\_______ --------- __>-}\n"
+       "  /----------------------------------/              /  \\_____|_____/   |\n"
+       "                                                    *         |\n"
+       "                                                             {O}\n"
+       "\n"
+       "       /*\\       /*\\       /*\\       /*\\       /*\\       /*\\       /*\\\n"
+       "      |***|     |***|     |***|     |***|     |***|     |***|     |***|\n"
+       "       \\*/       \\*/ ____  \\*/       \\*/       \\*/       \\*/       \\*/\n"
+       "        |         |  |  |   |         |         |         |         |\n"
+       "  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+printf("\n");
     // init Airport Manager
     AirportManager airportManager;
     initAirportManager(&airportManager);

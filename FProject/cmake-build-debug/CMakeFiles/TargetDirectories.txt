@@ -1,3 +1,3 @@
-C:/Users/monst/CLionProjects/project/FProject/cmake-build-debug/CMakeFiles/Assignment2.dir
-C:/Users/monst/CLionProjects/project/FProject/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/monst/CLionProjects/project/FProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/dorbi/Desktop/repo_partB/project_partB/FProject/cmake-build-debug/CMakeFiles/Assignment2.dir
+C:/Users/dorbi/Desktop/repo_partB/project_partB/FProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dorbi/Desktop/repo_partB/project_partB/FProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir

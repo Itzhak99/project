@@ -50,4 +50,8 @@
 #define ENTER_DATE "Enter date (DD/MM/YYYY format):"
 #define DATE_FORMAT "%02d/%02d/%04d"
 
+
+#define GAS_PRICE 3.50 // price of gas per gallon
+#define GAS_CONSUMPTION 50 // fuel consumption rate in gallons per hour
+
 #endif //HW02_DEF_H
